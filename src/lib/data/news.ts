@@ -7,7 +7,12 @@ export interface NewsItem {
 export const newsData: NewsItem[] = [
     {
         date: '2026-11-08',
-        title: 'New paper accepted at HPCA 2026',
-        description: 'Our paper titled <i> abc </i> has been accepted at HPCA 2026.',
+        title: 'Paper accepted at HPCA 2026',
+        description: 'Our paper <i>DSASSASSIN: Cross-VM Side-Channel Attacks by Exploiting Intel Data Streaming Accelerator</i> has been accepted to HPCA 2026.',
+    },
+    {
+        date: '2024-09-06',
+        title: 'Joined HKUST(GZ) as an assistant professor',
+        description: 'Dr. Yun Chen has joined the Microelectronics Thrust at HKUST(GZ). SecArch Lab is here!',
     }
 ];

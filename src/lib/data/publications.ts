@@ -5,6 +5,7 @@ export interface Publication {
 	year: string;
 	paperUrl?: string;
 	codeUrl?: string;
+    abbrev?: string;
 }
 
 export const publicationData: Publication[] = [
@@ -14,7 +15,8 @@ export const publicationData: Publication[] = [
         venue: 'International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2026',
         // paperUrl: '#',
-        // codeUrl: '#'
+        // codeUrl: '#',
+        abbrev: 'dsa'
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Trevor E. Carlson'],
@@ -22,7 +24,8 @@ export const publicationData: Publication[] = [
         venue: 'International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2024',
         paperUrl: '/paper/chen2024gantepvtlsd.pdf',
-        codeUrl: 'https://doi.org/10.5281/zenodo.10100971'
+        codeUrl: 'https://doi.org/10.5281/zenodo.10100971',
+        abbrev: 'gadgetspinner'
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -30,7 +33,8 @@ export const publicationData: Publication[] = [
         venue: 'International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2024',
         paperUrl: '/paper/chen2024nccapsac.pdf',
-        codeUrl: 'https://doi.org/10.5281/zenodo.10118346'
+        codeUrl: 'https://doi.org/10.5281/zenodo.10118346',
+        abbrev: 'prefetchx'
     },
 	{
 		authors: ['Yun Chen', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -38,7 +42,8 @@ export const publicationData: Publication[] = [
 		venue: 'International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)',
 		year: '2023',
 		paperUrl: '/paper/chen2023lcfivthp.pdf',
-        codeUrl: 'https://doi.org/10.5281/zenodo.7218907'
+        codeUrl: 'https://doi.org/10.5281/zenodo.7218907',
+        abbrev: 'afterimage'
 	}
 ];
 

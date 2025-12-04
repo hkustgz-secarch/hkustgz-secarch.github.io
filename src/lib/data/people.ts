@@ -10,9 +10,9 @@ export interface PersonProfile {
 	email?: string;
 	location?: string;
 	website?: string;
-	googleScholar?: string;
-	github?: string;
-	linkedin?: string;
+	googleScholar?: string; // Google Scholar ID
+	github?: string; // GitHub username
+	linkedin?: string; // LinkedIn username
 	bio: string;
 	teaching?: string[];
 	service?: string[];
@@ -28,7 +28,7 @@ export const peopleData: PersonProfile[] = [
 		bio: 'CHEN Yun got his PhD from the School of Computing at the National University of Singapore, under the supervision of Prof. Trevor E. Carlson. His current research focuses on Computer Architecture and System Security, particularly on 1) side-channel attacks and mitigations, 2) secure and high-performance hardware architecture, and 3) efficient and side-channel-resilient trusted execution environments. His research has been published in many top-tier and important conferences/journals in computer architecture and information systems, including ASPLOS, HPCA, DATE, Information Sciences, Information Fusion, etc. Additionally, some of his research has been highlighted by NUS News. CHEN Yun has also participated in various research projects, such as the National Defense Basic Scientific Research Programs, the National Defense Science and Technology Innovation Projects, and the Singapore National Research Foundation Projects.',
 		email: 'yunchen@hkust-gz.edu.cn',
 		location: 'W1(C8) L5 514',
-        googleScholar: 'https://scholar.google.com/citations?user=pQzZZlsAAAAJ',
+        googleScholar: 'pQzZZlsAAAAJ',
         service: [
             'HPCA (\'26), ISCA (\'26)',
         ],
@@ -36,6 +36,9 @@ export const peopleData: PersonProfile[] = [
             'Secure Hardware Architecture (MICS60001L), \'25 Spring',
             'Efficient Computing in Heterogeneous System (MICS6002E), \'25 Fall',
         ],
+		publications: [
+			'afterimage', 'prefetchx', 'gadgetspinner', 'dsa'
+		]
 	},
 	{
 		slug: 'zihao-dan',
@@ -90,9 +93,12 @@ export const peopleData: PersonProfile[] = [
 	{
 		slug: 'ben-chen',
 		name: 'Ben Chen',
-		role: 'PhD Student',
+		role: 'Incoming PhD Student',
 		image: 'https://i.benx.dev/images/avatar.png',
 		email: 'chanben04gz@gmail.com',
+		googleScholar: '3ePAeQ8AAAAJ',
+		github: 'chanbengz',
+		linkedin: 'b3nch4n',
 		bio: 'Ben Chen is an incoming PhD Student. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering.',
 	}
 ];

@@ -14,6 +14,9 @@
 					<span class="italic">{pub.venue}</span>, {pub.year}.
 				</p>
 				<div class="flex gap-3 mt-1 text-base font-medium">
+					{#if pub.highlight}
+						<span class="text-red-600 font-bold">{pub.highlight}</span>
+					{/if}
 					{#if pub.paperUrl}
 						<a href={pub.paperUrl} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">[Paper]</a>
 					{/if}

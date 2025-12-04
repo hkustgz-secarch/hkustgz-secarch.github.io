@@ -4,9 +4,7 @@
 
 	export let data: PageData;
 	$: person = data.person;
-	$: personPublications = person.publications 
-		? publicationData.filter(pub => pub.abbrev && person.publications?.includes(pub.abbrev))
-		: [];
+	$: personPublications = publicationData.filter(pub => pub.authors.includes(person.name));
 </script>
 
 <div class="mx-auto max-w-7xl px-4 py-12">
@@ -42,7 +40,7 @@
 					{#if person.website}
 						<div class="flex items-start gap-2 text-gray-600">
 							<span class="font-semibold">Website:</span>
-							<a href={person.website} target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 break-all">Personal Page</a>
+							<a href={person.website} target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 break-all">{person.website}</a>
 						</div>
 					{/if}
 
@@ -72,7 +70,7 @@
 			<!-- Bio -->
 			<section>
 				<div class="prose max-w-none text-gray-700 leading-snug">
-					<p>{person.bio}</p>
+					<p>{@html person.bio}</p>
 				</div>
 			</section>
 

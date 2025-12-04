@@ -5,7 +5,7 @@ export interface Publication {
 	year: string;
 	paperUrl?: string;
 	codeUrl?: string;
-    abbrev?: string;
+    highlight?: string;
 }
 
 export const publicationData: Publication[] = [
@@ -14,9 +14,24 @@ export const publicationData: Publication[] = [
         title: 'DSASSASSIN: Cross-VM Side-Channel Attacks by Exploiting Intel Data Streaming Accelerator',
         venue: 'International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2026',
-        // paperUrl: '#',
-        // codeUrl: '#',
-        abbrev: 'dsa'
+        paperUrl: '#',
+        codeUrl: 'https://github.com/chanbengz/dsa-reversing',
+    },
+    {
+        authors: ['Tengjiao Fu', 'Yu Jin', 'Dongsheng Wang', 'Shuwen Deng', 'Yun Chen'],
+        title: 'PPA: Novel Page Prefetcher-Based Side-Channel Attacks',
+        venue: 'Asian Hardware Oriented Security and Trust Symposium (AsianHOST)',
+        year: '2025',
+        highlight: 'Best paper candidate',
+        paperUrl: 'https://www.asianhost.org/2025/program.html',
+        // codeUrl: '',
+    },
+    {
+        authors: ['Yinqiao Zhao', 'Zilong Xie', 'Ruidian Zhan', 'Xiaoming Xiong', 'Yun Chen', 'Shuting Cai'],
+        title: 'NTT-LSU: Tightly Coupled Architecture for Efficient NTT Implementation on RISC-V Processor',
+        venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)',
+        year: '2025',
+        paperUrl: 'https://doi.org/10.1109/TCAD.2025.3627145',
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Trevor E. Carlson'],
@@ -25,7 +40,6 @@ export const publicationData: Publication[] = [
         year: '2024',
         paperUrl: '/paper/chen2024gantepvtlsd.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.10100971',
-        abbrev: 'gadgetspinner'
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -34,7 +48,6 @@ export const publicationData: Publication[] = [
         year: '2024',
         paperUrl: '/paper/chen2024nccapsac.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.10118346',
-        abbrev: 'prefetchx'
     },
 	{
 		authors: ['Yun Chen', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -43,7 +56,6 @@ export const publicationData: Publication[] = [
 		year: '2023',
 		paperUrl: '/paper/chen2023lcfivthp.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.7218907',
-        abbrev: 'afterimage'
 	}
 ];
 

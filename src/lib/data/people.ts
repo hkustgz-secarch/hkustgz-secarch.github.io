@@ -16,7 +16,6 @@ export interface PersonProfile {
 	bio: string;
 	teaching?: string[];
 	service?: string[];
-	publications?: string[];
 }
 
 export const peopleData: PersonProfile[] = [
@@ -36,22 +35,19 @@ export const peopleData: PersonProfile[] = [
             'Secure Hardware Architecture (MICS60001L), \'25 Spring',
             'Efficient Computing in Heterogeneous System (MICS6002E), \'25 Fall',
         ],
-		publications: [
-			'afterimage', 'prefetchx', 'gadgetspinner', 'dsa'
-		]
 	},
 	{
 		slug: 'zihao-dan',
 		name: 'Zihao Dan',
 		role: 'PhD Student',
-		image: 'https://placehold.co/400',
+		image: 'https://avatar.iran.liara.run/public/boy',
 		bio: '',
 	},
 	{
 		slug: 'tengjiao-fu',
 		name: 'Tengjiao Fu',
 		role: 'PhD Student',
-		image: 'https://placehold.co/400',
+		image: 'https://avatar.iran.liara.run/public/girl',
 		bio: '',
 	},
 	{
@@ -65,6 +61,7 @@ export const peopleData: PersonProfile[] = [
 		slug: 'qi-luo',
 		name: 'Qi Luo',
 		role: 'PhD Student',
+		website: 'https://rocky-lq.github.io/',
 		image: 'https://rocky-lq.github.io/images/qiluo.jpg',
 		email: 'qluo615@connect.hkust-gz.edu.cn',
 		bio: 'Qi Luo is a first-year Ph.D. student in Microelectronics. He received his M.Eng. from Southern University of Science and Technology and his B.Eng. from Xidian University, both majoring in Computer Science.',
@@ -73,7 +70,7 @@ export const peopleData: PersonProfile[] = [
 		slug: 'ziwen-wang',
 		name: 'Ziwen Wang',
 		role: 'PhD Student',
-		image: 'https://placehold.co/400',
+		image: 'https://avatar.iran.liara.run/public/boy',
 		bio: '',
 	},
 	{
@@ -88,18 +85,19 @@ export const peopleData: PersonProfile[] = [
 		slug: 'xingyi-wu',
 		name: 'Xingyi Wu',
 		role: 'PhD Student',
-		image: 'https://placehold.co/400',
+		image: 'https://avatar.iran.liara.run/public/boy',
 		bio: '',
 	},
 	{
 		slug: 'ben-chen',
 		name: 'Ben Chen',
-		role: 'Incoming PhD Student',
+		role: 'PhD Student',
 		image: 'https://i.benx.dev/images/avatar.png',
 		email: 'chanben04gz@gmail.com',
+		website: 'https://i.benx.dev',
 		googleScholar: '3ePAeQ8AAAAJ',
 		github: 'chanbengz',
 		linkedin: 'b3nch4n',
-		bio: 'Ben Chen is an incoming PhD Student. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering.',
+		bio: 'Ben Chen is an incoming PhD Student starting from 2026 Fall. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering. <br> Ben\'s research interests include xPU microarchitectural security.',
 	}
 ];

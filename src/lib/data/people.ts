@@ -65,8 +65,9 @@ export const peopleData: PersonProfile[] = [
 		slug: 'qi-luo',
 		name: 'Qi Luo',
 		role: 'PhD Student',
-		image: 'https://placehold.co/400',
-		bio: '',
+		image: 'https://rocky-lq.github.io/images/qiluo.jpg',
+		email: 'qluo615@connect.hkust-gz.edu.cn',
+		bio: 'Qi Luo is a first-year Ph.D. student in Microelectronics. He received his M.Eng. from Southern University of Science and Technology and his B.Eng. from Xidian University, both majoring in Computer Science.',
 	},
 	{
 		slug: 'ziwen-wang',

@@ -22,21 +22,21 @@
 
 				<div class="space-y-1 text-sm">
 					{#if person.email}
-						<div class="flex items-center gap-2 text-gray-600">
+						<div class="flex items-start gap-2 text-gray-600">
 							<span class="font-semibold">Email:</span>
 							<a href="mailto:{person.email}" class="hover:text-blue-600 break-all">{person.email}</a>
 						</div>
 					{/if}
 
 					{#if person.location}
-						<div class="flex items-center gap-2 text-gray-600">
+						<div class="flex items-start gap-2 text-gray-600">
 							<span class="font-semibold">Office:</span>
 							<span>{person.location}</span>
 						</div>
 					{/if}
 					
 					{#if person.website}
-						<div class="flex items-center gap-2 text-gray-600">
+						<div class="flex items-start gap-2 text-gray-600">
 							<span class="font-semibold">Website:</span>
 							<a href={person.website} target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 break-all">Personal Page</a>
 						</div>

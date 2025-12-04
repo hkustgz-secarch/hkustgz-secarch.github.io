@@ -22,9 +22,9 @@
 	<h1 class="text-4xl font-bold mb-8">People</h1>
 	<section class="mb-12">
 		<h2 class="text-2xl font-semibold mb-6">Director</h2>
-		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+		<div class="flex flex-wrap gap-6 justify-center sm:justify-start">
 			{#each director as person}
-				<a href={person.link} class="group block">
+				<a href={person.link} class="group block w-44">
 					<div
 						class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
 					>
@@ -49,9 +49,9 @@
 
 	<section class="mb-12">
 		<h2 class="text-2xl font-semibold mb-6">Students</h2>
-		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+		<div class="flex flex-wrap gap-6 justify-center sm:justify-start">
 			{#each students as person}
-				<a href={person.link} class="group block">
+				<a href={person.link} class="group block w-44">
 					<div
 						class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
 					>
@@ -76,9 +76,9 @@
 
 	<section>
 		<h2 class="text-2xl font-semibold mb-6">Alumni</h2>
-		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+		<div class="flex flex-wrap gap-6 justify-center sm:justify-start">
 			{#each alumni as person}
-				<a href={person.link} class="group block">
+				<a href={person.link} class="group block w-44">
 					<div
 						class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
 					>

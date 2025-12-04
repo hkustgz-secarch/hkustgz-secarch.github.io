@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.png';
 	import ustgzLogo from '$lib/assets/ustgz-logo-zh.svg';
+	import { page } from '$app/stores';
 	
 	let { children } = $props();
 
@@ -14,6 +15,25 @@
 		{ name: 'Join Us', href: '/join-us' }
 	];
 
+	let title = $derived.by(() => {
+		const path = $page.url.pathname;
+		if (path === '/') return 'SecArch Lab';
+
+		const segment = path.split('/')[1];
+		const matchingItem = navItems.find((item) => item.href === `/${segment}`);
+
+		if (matchingItem) {
+			return `${matchingItem.name} | SecArch`;
+		}
+
+		if (segment) {
+			const name = segment.charAt(0).toUpperCase() + segment.slice(1);
+			return `${name} | SecArch`;
+		}
+
+		return 'SecArch Lab';
+	});
+
 	function scrollToTop() {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
@@ -24,7 +44,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-	<title>SecArch Lab</title>
+	<title>{title}</title>
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-white text-gray-900" style="font-family: 'Karla', sans-serif;">

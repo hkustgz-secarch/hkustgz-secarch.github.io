@@ -1,5 +1,6 @@
 import kunlinLiAvatar from '$lib/assets/kunlin-li-avatar.jpeg';
 import jiapengZhouAvatar from '$lib/assets/jiapeng-zhou-avatar.gif';
+import yunChenAvatar from '$lib/assets/Yun_v1.jpeg';
 
 export interface PersonProfile {
 	slug: string;
@@ -23,7 +24,7 @@ export const peopleData: PersonProfile[] = [
 		slug: 'yun-chen',
 		name: 'Yun Chen',
 		role: 'Faculty',
-		image: 'https://gzcms.hkust-gz.edu.cn/itdobs/preview/cms/prod/linalnzhou/20240906/201820/Yun_v1.JPG',
+		image: yunChenAvatar,
 		bio: 'CHEN Yun got his PhD from the School of Computing at the National University of Singapore, under the supervision of Prof. Trevor E. Carlson. His current research focuses on Computer Architecture and System Security, particularly on 1) side-channel attacks and mitigations, 2) secure and high-performance hardware architecture, and 3) efficient and side-channel-resilient trusted execution environments. His research has been published in many top-tier and important conferences/journals in computer architecture and information systems, including ASPLOS, HPCA, DATE, Information Sciences, Information Fusion, etc. Additionally, some of his research has been highlighted by NUS News. CHEN Yun has also participated in various research projects, such as the National Defense Basic Scientific Research Programs, the National Defense Science and Technology Innovation Projects, and the Singapore National Research Foundation Projects.',
 		email: 'yunchen@hkust-gz.edu.cn',
 		location: 'W1(C8) L5 514',
@@ -41,55 +42,57 @@ export const peopleData: PersonProfile[] = [
 		name: 'Zihao Dan',
 		role: 'PhD Student',
 		image: 'https://placehold.co/400',
-		bio: 'Zihao Dan is a PhD Student.',
+		bio: '',
 	},
 	{
 		slug: 'tengjiao-fu',
 		name: 'Tengjiao Fu',
 		role: 'PhD Student',
 		image: 'https://placehold.co/400',
-		bio: 'Tengjiao Fu is a PhD Student.',
+		bio: '',
 	},
 	{
 		slug: 'kunlin-li',
 		name: 'Kunlin Li',
 		role: 'MPhil Student',
 		image: kunlinLiAvatar,
-		bio: 'Kunlin Li is an MPhil Student.',
+		bio: '',
 	},
 	{
 		slug: 'qi-luo',
 		name: 'Qi Luo',
 		role: 'PhD Student',
 		image: 'https://placehold.co/400',
-		bio: 'Qi Luo is a PhD Student.',
+		bio: '',
 	},
 	{
 		slug: 'ziwen-wang',
 		name: 'Ziwen Wang',
 		role: 'PhD Student',
 		image: 'https://placehold.co/400',
-		bio: 'Ziwen Wang is a PhD Student.',
+		bio: '',
 	},
 	{
 		slug: 'jiapeng-zhou',
 		name: 'Jiapeng Zhou',
 		role: 'PhD Student',
 		image: jiapengZhouAvatar,
-		bio: 'Jiapeng Zhou is a PhD Student.',
+		email: 'jzhou418@connect.hkust-gz.edu.cn',
+		bio: '',
 	},
 	{
 		slug: 'xingyi-wu',
 		name: 'Xingyi Wu',
 		role: 'PhD Student',
 		image: 'https://placehold.co/400',
-		bio: 'Xingyi Wu is a PhD Student.',
+		bio: '',
 	},
 	{
 		slug: 'ben-chen',
 		name: 'Ben Chen',
 		role: 'PhD Student',
 		image: 'https://i.benx.dev/images/avatar.png',
-		bio: 'Ben Chen is a PhD Student.',
+		email: 'chanben04gz@gmail.com',
+		bio: 'Ben Chen is an incoming PhD Student. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering.',
 	}
 ];

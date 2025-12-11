@@ -92,7 +92,7 @@ export const peopleData: PersonProfile[] = [
 		slug: 'ben-chen',
 		name: 'Ben Chen',
 		role: 'PhD Student',
-		image: 'https://i.benx.dev/images/avatar.png',
+		image: 'https://i.benx.dev/images/avatar.jpg',
 		email: 'chanben04gz@gmail.com',
 		website: 'https://i.benx.dev',
 		googleScholar: '3ePAeQ8AAAAJ',

@@ -14,8 +14,8 @@ export const publicationData: Publication[] = [
         title: 'DSASSASSIN: Cross-VM Side-Channel Attacks by Exploiting Intel Data Streaming Accelerator',
         venue: 'International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2026',
-        paperUrl: '#',
-        codeUrl: 'https://github.com/chanbengz/dsa-reversing',
+        paperUrl: '/paper/hpca26dsassassin.pdf',
+        codeUrl: 'https://github.com/hkustgz-secarch/dsassassin',
     },
     {
         authors: ['Tengjiao Fu', 'Yu Jin', 'Dongsheng Wang', 'Shuwen Deng', 'Yun Chen'],

@@ -36,7 +36,7 @@
 	
 	<div class="text-lg text-gray-700 mb-12">
 		<p>
-			We are looking for self-motivated PhD students and research assistants, working on high-performance CPU/GPU architecture, hardware side-channel attacks and mitigations, trusted computing, and LLM for hardware security. If you are interested in joining our group, please contact <b>yunchen AT hkust-gz DOT edu DOT cn</b>, attaching your CV, Transcripts, and any other materials.
+			We are looking for self-motivated MPhil students, PhD students and research assistants, working on high-performance CPU/GPU architecture, hardware side-channel attacks and mitigations, trusted computing, and LLM for hardware security. If you are interested in joining our group, please contact <b>yunchen AT hkust-gz DOT edu DOT cn</b>, attaching your CV, transcripts and any other materials.
 		</p>
 	</div>
 

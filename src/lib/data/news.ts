@@ -6,6 +6,11 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
     {
+        date: '2026-12-21',
+        title: 'PPA got best paper award at AsianHOST 2025',
+        description: 'Our paper <i>PPA: Novel Page Prefetcher-Based Side-Channel Attacks</i> is awarded best paper at AsianHOST 2025. Congrats to Tengjiao and Yu!',
+    },
+    {
         date: '2026-11-08',
         title: 'Paper accepted at HPCA 2026',
         description: 'Our paper <i>DSASSASSIN: Cross-VM Side-Channel Attacks by Exploiting Intel Data Streaming Accelerator</i> has been accepted to HPCA 2026.',

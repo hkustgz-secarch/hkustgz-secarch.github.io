@@ -22,9 +22,8 @@ export const publicationData: Publication[] = [
         title: 'PPA: Novel Page Prefetcher-Based Side-Channel Attacks',
         venue: 'Asian Hardware Oriented Security and Trust Symposium (AsianHOST)',
         year: '2025',
-        highlight: 'Best paper candidate',
-        paperUrl: 'https://www.asianhost.org/2025/program.html',
-        // codeUrl: '',
+        highlight: 'Best paper award',
+        paperUrl: 'https://www.thu-haslab.org/publication/2025-ppa/asianhost2025ppa.pdf',
     },
     {
         authors: ['Yinqiao Zhao', 'Zilong Xie', 'Ruidian Zhan', 'Xiaoming Xiong', 'Yun Chen', 'Shuting Cai'],

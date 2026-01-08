@@ -9,11 +9,11 @@ export interface PersonProfile {
 	image: string;
 	email?: string;
 	location?: string;
-	website?: string;
+	website?: string; // URL
 	googleScholar?: string; // Google Scholar ID
 	github?: string; // GitHub username
 	linkedin?: string; // LinkedIn username
-	bio: string;
+	bio: string; // Biography (HTML tags allowed)
 	teaching?: string[];
 	service?: string[];
 }
@@ -32,7 +32,7 @@ export const peopleData: PersonProfile[] = [
             'HPCA (\'26), ISCA (\'26)',
         ],
         teaching: [
-            'Secure Hardware Architecture (MICS60001L), \'25 Spring',
+            'Secure Hardware Architecture (MICS60001L), \'25 Spring, \'26 Spring',
             'Efficient Computing in Heterogeneous System (MICS6002E), \'25 Fall',
         ],
 	},
@@ -56,6 +56,9 @@ export const peopleData: PersonProfile[] = [
 		role: 'MPhil Student',
 		image: kunlinLiAvatar,
 		bio: '',
+		service: [
+            'HPCA AEC (\'26)',
+        ],
 	},
 	{
 		slug: 'qi-luo',
@@ -64,6 +67,8 @@ export const peopleData: PersonProfile[] = [
 		website: 'https://rocky-lq.github.io/',
 		image: 'https://rocky-lq.github.io/images/qiluo.jpg',
 		email: 'qluo615@connect.hkust-gz.edu.cn',
+		github: 'rocky-lq',
+		googleScholar: 'Sd4sKEgAAAAJ',
 		bio: 'Qi Luo is a first-year Ph.D. student in Microelectronics. He received his M.Eng. from Southern University of Science and Technology and his B.Eng. from Xidian University, both majoring in Computer Science.',
 	},
 	{
@@ -80,6 +85,10 @@ export const peopleData: PersonProfile[] = [
 		image: jiapengZhouAvatar,
 		email: 'jzhou418@connect.hkust-gz.edu.cn',
 		bio: '',
+		googleScholar: '4-D3VsAAAAAJ',
+		service: [
+            'HPCA AEC (\'26)',
+        ],
 	},
 	{
 		slug: 'xingyi-wu',
@@ -98,6 +107,9 @@ export const peopleData: PersonProfile[] = [
 		googleScholar: '3ePAeQ8AAAAJ',
 		github: 'chanbengz',
 		linkedin: 'b3nch4n',
+		service: [
+            'HPCA AEC (\'26)',
+        ],
 		bio: 'Ben Chen is an incoming PhD Student starting from 2026 Fall. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering. <br> Ben\'s research interests include xPU microarchitectural security.',
 	}
 ];

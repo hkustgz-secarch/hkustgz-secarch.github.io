@@ -7,7 +7,7 @@
 		},
 		{
 			title: 'Microarchitectural Attacks',
-			description: 'The complexity of modern microarchitectures introduce new security vulnerabilities. We aims to hunt down these vulnerabilities and their root causes.',
+			description: 'The complexity of modern microarchitectures introduce new security vulnerabilities. We aim to hunt down these vulnerabilities and their root causes.',
 			link: '/research/uarchattacks'
 		},
 		{

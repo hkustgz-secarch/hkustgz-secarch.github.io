@@ -1,3 +1,9 @@
+export enum ResearchTag {
+	Architecture = 'architecture',
+	Security = 'security',
+	UarchAttacks = 'uarchattacks',
+}
+
 export interface Publication {
 	authors: string[];
 	title: string;
@@ -6,6 +12,7 @@ export interface Publication {
 	paperUrl?: string;
 	codeUrl?: string;
     highlight?: string;
+	tags?: ResearchTag[];
 }
 
 export const publicationData: Publication[] = [
@@ -16,6 +23,7 @@ export const publicationData: Publication[] = [
         year: '2026',
         paperUrl: '/paper/hpca26dsassassin.pdf',
         codeUrl: 'https://github.com/hkustgz-secarch/dsassassin',
+        tags: [ResearchTag.UarchAttacks],
     },
     {
         authors: ['Tengjiao Fu', 'Yu Jin', 'Dongsheng Wang', 'Shuwen Deng', 'Yun Chen'],
@@ -24,6 +32,7 @@ export const publicationData: Publication[] = [
         year: '2025',
         highlight: 'Best paper award',
         paperUrl: 'https://www.thu-haslab.org/publication/2025-ppa/asianhost2025ppa.pdf',
+        tags: [ResearchTag.UarchAttacks],
     },
     {
         authors: ['Yinqiao Zhao', 'Zilong Xie', 'Ruidian Zhan', 'Xiaoming Xiong', 'Yun Chen', 'Shuting Cai'],
@@ -31,6 +40,7 @@ export const publicationData: Publication[] = [
         venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)',
         year: '2025',
         paperUrl: 'https://doi.org/10.1109/TCAD.2025.3627145',
+        tags: [ResearchTag.Architecture],
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Trevor E. Carlson'],
@@ -39,6 +49,7 @@ export const publicationData: Publication[] = [
         year: '2024',
         paperUrl: '/paper/chen2024gantepvtlsd.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.10100971',
+        tags: [ResearchTag.UarchAttacks],
     },
     {
         authors: ['Yun Chen', 'Ali Hajiabadi', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -47,6 +58,7 @@ export const publicationData: Publication[] = [
         year: '2024',
         paperUrl: '/paper/chen2024nccapsac.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.10118346',
+        tags: [ResearchTag.UarchAttacks],
     },
 	{
 		authors: ['Yun Chen', 'Lingfeng Pei', 'Trevor E. Carlson'],
@@ -55,6 +67,7 @@ export const publicationData: Publication[] = [
 		year: '2023',
 		paperUrl: '/paper/chen2023lcfivthp.pdf',
         codeUrl: 'https://doi.org/10.5281/zenodo.7218907',
+		tags: [ResearchTag.UarchAttacks],
 	}
 ];
 
@@ -65,6 +78,8 @@ export const publicationData: Publication[] = [
     venue: 'Conference Name',
     year: 'Year',
     paperUrl: 'URL to the paper',
-    codeUrl: 'URL to the code repository'
+    codeUrl: 'URL to the code repository',
+    highlight: 'Highlight such as Best Paper Award',
+    tags: [ResearchTag.TagName],
 }
 */

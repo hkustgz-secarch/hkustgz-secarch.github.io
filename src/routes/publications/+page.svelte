@@ -23,6 +23,9 @@
 					{#if pub.codeUrl}
 						<a href={pub.codeUrl} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">[Code]</a>
 					{/if}
+					{#if pub.slidesUrl}
+						<a href={pub.slidesUrl} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">[Slides]</a>
+					{/if}
 				</div>
 			</div>
 		{/each}

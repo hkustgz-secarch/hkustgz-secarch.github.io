@@ -31,6 +31,7 @@ export const publicationData: Publication[] = [
         venue: 'IEEE International Symposium on High-Performance Computer Architecture (HPCA)',
         year: '2026',
         paperUrl: '/paper/hpca26dsassassin.pdf',
+        slidesUrl: '/slides/dsa-hpca26.pdf',
         codeUrl: 'https://github.com/hkustgz-secarch/dsassassin',
         tags: [ResearchTag.UarchAttacks],
     },
@@ -41,6 +42,7 @@ export const publicationData: Publication[] = [
         year: '2025',
         highlight: 'Best paper award',
         paperUrl: 'https://www.thu-haslab.org/publication/2025-ppa/asianhost2025ppa.pdf',
+        codeUrl: 'https://github.com/THU-HAS/PPA',
         tags: [ResearchTag.UarchAttacks],
     },
     {

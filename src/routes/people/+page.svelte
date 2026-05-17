@@ -8,14 +8,19 @@
 			link: `/people/${p.slug}`
 		}));
 
-	const students = peopleData
-		.filter((p) => !p.role.includes('Faculty'))
+	const members = peopleData
+		.filter((p) => p.role.includes('Student') || p.role.includes('Assistant'))
 		.map((p) => ({
 			...p,
 			link: `/people/${p.slug}`
 		}));
 
-	const alumni: typeof director = [];
+	const alumni = peopleData
+		.filter((p) => p.alumni)
+		.map((p) => ({
+			...p,
+			link: `/people/${p.slug}`
+		}));
 </script>
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -48,9 +53,9 @@
 	</section>
 
 	<section class="mb-12">
-		<h2 class="text-2xl font-semibold mb-6">Students</h2>
+		<h2 class="text-2xl font-semibold mb-6">Members</h2>
 		<div class="flex flex-wrap gap-6 justify-center sm:justify-start">
-			{#each students as person}
+			{#each members as person}
 				<a href={person.link} class="group block w-44">
 					<div
 						class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"

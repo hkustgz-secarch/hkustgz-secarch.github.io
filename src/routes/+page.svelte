@@ -10,18 +10,11 @@
 <style>
 	/* Custom scrollbar for news section */
 	.custom-scrollbar::-webkit-scrollbar {
-		width: 6px;
+		display: none;
 	}
-	.custom-scrollbar::-webkit-scrollbar-track {
-		background: #f1f1f1;
-		border-radius: 4px;
-	}
-	.custom-scrollbar::-webkit-scrollbar-thumb {
-		background: #d1d5db;
-		border-radius: 4px;
-	}
-	.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-		background: #9ca3af;
+	.custom-scrollbar {
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
 	}
 </style>
 

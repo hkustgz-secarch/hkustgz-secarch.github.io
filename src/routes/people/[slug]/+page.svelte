@@ -111,7 +111,7 @@
 							<div class="flex flex-col">
 								<p class="text-lg text-gray-800">
 									{@html pub.authors.join(', ')}. 
-									<a href="/publications" class="font-bold hover:text-blue-600 hover:underline transition-colors">{pub.title}</a>,  
+									<a href={pub.paperUrl} target="_blank" rel="noopener noreferrer" class="font-bold hover:text-blue-600 hover:underline transition-colors">{pub.title}</a>,  
 									<span class="italic">{pub.venue}</span>, {pub.year}.
 								</p>
 							</div>

@@ -1,6 +1,8 @@
 import kunlinLiAvatar from '$lib/assets/kunlin-li-avatar.jpeg';
 import jiapengZhouAvatar from '$lib/assets/jiapeng-zhou-avatar.gif';
 import yunChenAvatar from '$lib/assets/Yun_v1.jpeg';
+import boyPlaceholder from '$lib/assets/boy.png';
+import girlPlaceholder from '$lib/assets/girl.png';
 
 export interface PersonProfile {
 	slug: string;
@@ -16,6 +18,7 @@ export interface PersonProfile {
 	bio: string; // Biography (HTML tags allowed)
 	teaching?: string[];
 	service?: string[];
+	alumni?: boolean;
 }
 
 export const peopleData: PersonProfile[] = [
@@ -29,7 +32,7 @@ export const peopleData: PersonProfile[] = [
 		location: 'W1(C8) L5 514',
         googleScholar: 'pQzZZlsAAAAJ',
         service: [
-            'HPCA (\'26), ISCA (\'26)',
+            'HPCA (\'26), ISCA (\'26), MICRO (\'26)',
         ],
         teaching: [
             'Secure Hardware Architecture (MICS60001L), \'25 Spring, \'26 Spring',
@@ -40,14 +43,14 @@ export const peopleData: PersonProfile[] = [
 		slug: 'zihao-dan',
 		name: 'Zihao Dan',
 		role: 'PhD Student',
-		image: 'https://avatar.iran.liara.run/public/boy',
+		image: boyPlaceholder,
 		bio: '',
 	},
 	{
 		slug: 'tengjiao-fu',
 		name: 'Tengjiao Fu',
 		role: 'PhD Student',
-		image: 'https://avatar.iran.liara.run/public/girl',
+		image: girlPlaceholder,
 		bio: '',
 	},
 	{
@@ -75,7 +78,7 @@ export const peopleData: PersonProfile[] = [
 		slug: 'ziwen-wang',
 		name: 'Ziwen Wang',
 		role: 'PhD Student',
-		image: 'https://avatar.iran.liara.run/public/boy',
+		image: boyPlaceholder,
 		bio: '',
 	},
 	{
@@ -87,14 +90,14 @@ export const peopleData: PersonProfile[] = [
 		bio: '',
 		googleScholar: '4-D3VsAAAAAJ',
 		service: [
-            'HPCA AEC (\'26)',
+            'HPCA AEC (\'26), MLSys AEC (\'26), ISCA AEC (\'26)',
         ],
 	},
 	{
 		slug: 'xingyi-wu',
 		name: 'Xingyi Wu',
 		role: 'PhD Student',
-		image: 'https://avatar.iran.liara.run/public/boy',
+		image: boyPlaceholder,
 		bio: '',
 	},
 	{
@@ -108,8 +111,22 @@ export const peopleData: PersonProfile[] = [
 		github: 'chanbengz',
 		linkedin: 'b3nch4n',
 		service: [
-            'HPCA AEC (\'26)',
+            'HPCA AEC (\'26), MLSys AEC (\'26), ISCA AEC (\'26)',
         ],
-		bio: 'Ben Chen is an incoming PhD Student starting from 2026 Fall. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering. <br> Ben\'s research interests include xPU microarchitectural security.',
+		bio: 'Ben Chen is an incoming PhD Student starting from 2026 Fall. He received his B.Eng. degree from Southern University of Science and Technology (SUSTech) in 2026, majoring in Computer Science and Engineering. Ben\'s research interests include xPU microarchitectural security.',
+	},
+	{
+		slug: 'yidong-jian',
+		name: 'Yidong Jian',
+		role: 'PhD Student',
+		image: boyPlaceholder,
+		bio: '',
+	},
+	{
+		slug: 'fang-jiang',
+		name: 'Fang Jiang',
+		role: 'Research Assistant',
+		image: girlPlaceholder,
+		bio: '',
 	}
 ];

@@ -18,6 +18,56 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
     {
+        authors: ['Hongpei Zheng', 'Ben Chen', 'Hanyin Liu', 'Kaiyuan Rong', 'Yun Chen', 'Dongsheng Wang'],
+        title: 'SMExplode: Cross-Core and Cache-Agnostic Side-Channel Attack on Apple Silicon via SME Engine',
+        venue: 'IEEE/ACM International Symposium on Microarchitecture (MICRO)',
+        year: '2026',
+        tags: [ResearchTag.UarchAttacks],
+    },
+    {
+        authors: ['Pingfei Wu', 'Yun Chen', 'Haixia Wang', 'Dapeng Ju', 'Pengfei Qiu', 'Rihui Sun', 'Zikang Tao', 'Dongsheng Wang'],
+        title: 'PoCer: Fast RTL Fuzzing for Time-shared Microarchitectural Leakage Detection via Pre-Fuzzing Acceleration and Cross-Context-Supported Fuzzer',
+        venue: 'IEEE/ACM International Symposium on Microarchitecture (MICRO)',
+        year: '2026',
+        tags: [ResearchTag.Security],
+    },
+    {
+        authors: ['Zihao Dan', 'Shinan Liu', 'Shuwen Deng', 'Yanan Guo', 'Yinqian Zhang', 'Dongsheng Wang', 'Yun Chen'],
+        title: 'GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory',
+        venue: 'IEEE/ACM International Symposium on Microarchitecture (MICRO)',
+        year: '2026',
+        tags: [ResearchTag.UarchAttacks],
+    },
+    {
+        authors: ['Qi Luo', 'Kunlin Li', 'Changxi Liu', 'Dongsheng Wang', 'Yun Chen'],
+        title: 'PHANTOM: Phase-Aware Power Management for Energy-Efficient LLM Training',
+        venue: 'The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)',
+        year: '2026',
+        tags: [ResearchTag.Architecture],
+    },
+    {
+        authors: ['Hanyin Liu', 'Jin Wu', 'Rihui Sun', 'Kaiyuan Rong', 'Hongpei Zheng', 'Yun Chen', 'Jian Dong', 'Dongsheng Wang'],
+        title: 'MistleTunnel: Attacking KASLR on Apple M-Series Silicon with a Novel TLB Side Channel',
+        venue: 'Design Automation Conference (DAC)',
+        year: '2026',
+        paperUrl: '/paper/dac26mistletunnel.pdf',
+        tags: [ResearchTag.UarchAttacks],
+    },
+    {
+        authors: ['Congwei Chen', 'Jianxiong Zhang', 'Haolin Mai', 'Zijian Lu', 'Guohong Liu', 'Beihai Tan', 'Yun Chen', 'Xiaoming Xiong', 'Shuting Cai'],
+        title: 'LEAP LMSD: A Low-Overhead Side-Channel-Resistant Unified Polynomial Accelerator for HQC',
+        venue: 'International Conference on Computer-Aided Design (ICCAD)',
+        year: '2026',
+        tags: [ResearchTag.Architecture],
+    },
+    {
+        authors: ['Changxi Liu', 'Yun Chen', 'Trevor E. Carlson'],
+        title: 'DGNA: Dissecting GPU NUMA Architecture through Microbenchmarking and Data Analysis',
+        venue: 'ACM Transactions on Architecture and Code Optimization (TACO)',
+        year: '2026',
+        tags: [ResearchTag.Architecture],
+    },
+    {
         authors: ["Congwei Chen" , "Jinwei Pu" , "Jianxiong Zhang" , "Jiaying Liao", "Ruidian Zhan" , "Fei Yu", "Yun Chen", "Shuting Cai"],
         title: "A Low-Cost Local Masking Radix-4 NTT Against Soft-Analytical Side-Channel Attacks",
         venue: "IEEE Transactions on Very Large Scale Integration (TVLSI) Systems",

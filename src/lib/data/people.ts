@@ -27,16 +27,18 @@ export const peopleData: PersonProfile[] = [
 		name: 'Yun Chen',
 		role: 'Faculty',
 		image: yunChenAvatar,
-		bio: 'CHEN Yun got his PhD from the School of Computing at the National University of Singapore, under the supervision of Prof. Trevor E. Carlson. His current research focuses on Computer Architecture and System Security, particularly on 1) side-channel attacks and mitigations, 2) secure and high-performance hardware architecture, and 3) efficient and side-channel-resilient trusted execution environments. His research has been published in many top-tier and important conferences/journals in computer architecture and information systems, including ASPLOS, HPCA, DATE, Information Sciences, Information Fusion, etc. Additionally, some of his research has been highlighted by NUS News. CHEN Yun has also participated in various research projects, such as the National Defense Basic Scientific Research Programs, the National Defense Science and Technology Innovation Projects, and the Singapore National Research Foundation Projects.',
+		bio: 'CHEN Yun got his PhD from the School of Computing at the National University of Singapore, under the supervision of Prof. Trevor E. Carlson. Prior to that, he received his MPhil in Cybersecurity from Beijing Institute of Technology and his BE in Computer Science and Technology from Henan University. He was also an Adjunct Researcher at AMD Research Singapore. His current research focuses on Computer Architecture and System Security, particularly on 1) side-channel attacks and mitigations, 2) secure and high-performance hardware architecture, and 3) efficient and side-channel-resilient trusted execution environments. His research has been published in many top-tier and important conferences/journals in computer architecture and information systems, including MICRO, SC, HPCA, ASPLOS, DAC, DATE, TACO, TCAD, Information Sciences, Information Fusion, etc. Additionally, some of his research has been highlighted by NUS News. CHEN Yun has also participated in various research projects, such as the National Defense Basic Scientific Research Programs, the National Defense Science and Technology Innovation Projects, and the Singapore National Research Foundation Projects.',
 		email: 'yunchen@hkust-gz.edu.cn',
 		location: 'W1(C8) L5 514',
         googleScholar: 'pQzZZlsAAAAJ',
         service: [
-            'HPCA (\'26), ISCA (\'26), MICRO (\'26)',
+            'Program Committee: HPCA (\'26, \'27), ISCA (\'26), MICRO (\'26), HASP (\'26)',
+            'Journal Reviewer: IEEE TDSC, IEEE TCAD, JCST',
         ],
         teaching: [
-            'Secure Hardware Architecture (MICS60001L), \'25 Spring, \'26 Spring',
-            'Efficient Computing in Heterogeneous System (MICS6002E), \'25 Fall',
+            'Secure Hardware Architecture (MICS-6001L), \'25 Spring, \'26 Spring',
+            'Efficient Computing in Heterogeneous System (MICS-6002E), \'25 Fall',
+            'Introduction to Computer Organization & Design (MICS2070), \'26 Fall',
         ],
 	},
 	{
